@@ -6,14 +6,6 @@
 #define MAX_USERNAME_LENGTH 20
 #define MAX_PASSWORD_LENGTH 20
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-
-#define MAX_USERS 100
-#define MAX_USERNAME_LENGTH 20
-#define MAX_PASSWORD_LENGTH 20
-
 struct User {
   char username[MAX_USERNAME_LENGTH];
   char password[MAX_PASSWORD_LENGTH];
